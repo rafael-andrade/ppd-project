@@ -73,7 +73,7 @@ int prox_vizinho(int i, int j) {
 //Imprime a rota
 void print_route() {
     for (int i = 0; i < count; i++){
-        printf (" %d -> ",rota[i]+1);
+        printf (" %d -> ",rota[i]);
     }
     printf("\n");
 }
@@ -166,5 +166,12 @@ Grafo pra teste
 0 0 1 0 1 1
 1 1 1 1 0 0
 0 0 0 1 0 0
+
+0,1,0,0,1,0
+1,0,1,0,1,0
+0,1,0,1,1,0
+0,0,1,0,1,1
+1,1,1,1,0,0
+0,0,0,1,0,0
 */
 
