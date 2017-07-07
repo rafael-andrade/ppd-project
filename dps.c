@@ -79,7 +79,7 @@ void print_route() {
 }
 
 //Checa se todos os vertices já foram vizitados
-int check_route() 
+int check_route() {
     for (int j = 0; j < n; j++) {
         int found = 0;
         for (int i = 0; i < n; i++) {
