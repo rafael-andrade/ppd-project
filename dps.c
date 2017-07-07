@@ -2,7 +2,7 @@
 
 /*
 
-    Algoritmo que busca um caminho que passa por todos os vértices do grafo pelo menos um vez.
+    Algoritmo que busca um caminho que passa por todos os vértices do grafo exatamente uma vez.
     
     Esse algoritmo foi baseado no algoritmo de busca em profundidade do site http://www.thecrazyprogrammer.com/2014/03/depth-first-search-dfs-traversal-of-a-graph.html
 
